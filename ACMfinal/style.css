@@ -1,0 +1,141 @@
+body {
+    margin: 0 auto;
+    background-color: #222022;
+}
+
+#logohead {
+    background-color: white;
+    width: 60%;
+    height: 105px;
+    margin: auto;
+    
+}
+
+#logohead img {
+    padding: 13px;
+}
+
+
+#head {
+    width: 100%;
+    height: 350px;
+    margin: auto;
+    background-color: #4c4947;
+    background-image: url('topography.svg');
+    
+}
+
+
+#linkbar {
+    width: 60%;
+    background-color: #222022;
+    display: flex;
+    margin: auto;
+    
+}
+#linkbar ul {
+    height: 20;
+    margin-left: auto;
+    display: flex;
+
+}
+#linkbar ul li {
+    display: table-cell;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-left: white solid 1px;
+}
+#headtext {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    height: 198px;
+    background-color: rgba(0,0,0,.3);
+}
+#headtext p {
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+#body {
+    width: 60%;
+    margin: auto;
+    background-color:#efedef;
+    height:100%;
+    outline: 15px solid #efedef;
+    position: absolute;
+}
+table {
+    width: 100%;
+}
+.body {
+    margin: auto;
+    width: 60%;
+}
+#body th {
+    display: table;
+    margin: 5px auto;
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,.1);
+    padding: 20px;
+    width: 100%;
+}
+
+#body tr {
+    display: flex;
+    
+}
+#body tr th {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    background-color: #efedef;
+}
+#body tr th img {
+    width: 350px;
+    outline: black solid 1px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+#body tr th p {
+    text-align: justify;
+    margin-right:20px;
+    font-family: arial;
+    font-weight: 10;
+    color: #4c4947;
+}
+#body tr th h1 {
+    margin: 0;
+    text-align: left;
+    color:#4c4947;
+    font-family: sans-serif;
+    
+}
+#body tr th h2 {
+    margin: 0;
+    text-align: left;
+    color:green;
+    font-family: sans-serif;
+}
+#link {
+    float: right;
+    color: green;
+    margin: 0;
+}
+
+.columth h2 {
+    margin: auto;
+    text-align: center;
+    display: inline;
+}
+.columth h1 {
+    display: inline;
+    margin: auto;
+    text-align: center;
+}
+
+.columth p {
+    padding-left: 15px;
+}
