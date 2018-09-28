@@ -1,6 +1,10 @@
 body {
     margin: 0 auto;
     background-color: #222022;
+    
+}
+a {
+    text-decoration: none;
 }
 
 #logohead {
@@ -8,11 +12,13 @@ body {
     width: 60%;
     height: 105px;
     margin: auto;
+    min-width: 750px;
     
 }
 
 #logohead img {
     padding: 13px;
+    
 }
 
 
@@ -44,26 +50,23 @@ body {
     width: 100px;
     text-align: center;
     color: white;
-    border-left: white solid 1px;
 }
 #headtext {
     text-align: center;
     width: 60%;
     margin: auto;
-    padding-top: 100px;
-    height: 198px;
+    padding-top: 10px;
+    height: 273px;
     background-color: rgba(0,0,0,.3);
+    min-width: 750px;
 }
-#headtext p {
-    font-size: 25px;
-    color: white;
-    font-family: sans-serif;
-}
+
+
+
 #body {
     width: 60%;
     margin: auto;
     background-color:#efedef;
-    height:100%;
     outline: 15px solid #efedef;
     position: absolute;
 }
@@ -91,13 +94,26 @@ table {
     margin-right: 5px;
     margin-bottom: 15px;
     background-color: #efedef;
+    
 }
-#body tr th img {
+#img1 {
     width: 350px;
     outline: black solid 1px;
     float: left;
     margin-right: 30px;
     margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#img2 {
+    width: 80%;
+    outline: black solid 1px;
+    margin: 25px;
+}
+#img3 {
+    width: 90%;
+    outline: black solid 1px;
+    margin: 25px;
 }
 #body tr th p {
     text-align: justify;
@@ -105,12 +121,14 @@ table {
     font-family: arial;
     font-weight: 10;
     color: #4c4947;
+    
 }
 #body tr th h1 {
     margin: 0;
     text-align: left;
     color:#4c4947;
     font-family: sans-serif;
+    
     
 }
 #body tr th h2 {
@@ -124,7 +142,9 @@ table {
     color: green;
     margin: 0;
 }
-
+.columth {
+    height: 650px;
+}
 .columth h2 {
     margin: auto;
     text-align: center;
@@ -138,4 +158,128 @@ table {
 
 .columth p {
     padding-left: 15px;
+}
+.columth2 {
+    height: 500px;
+}
+.columth2 h2 {
+    margin: auto;
+    text-align: center;
+    display: inline;
+}
+.columth2 h1 {
+    display: inline;
+    margin: auto;
+    text-align: center;
+}
+
+.columth2 p {
+    padding-left: 15px;
+}
+
+.selected {
+    box-shadow: 0px 0px 3px 3px rgba(255,255,255,.2);
+}
+.selected:hover {
+    background-color: rgba(255,255,255,.1);
+    box-shadow: 0px 0px 3px 3px rgba(255,255,255,.1);
+    font-size: 17px;
+}
+.others:hover {
+    background-color: rgba(255,255,255,.1);
+    box-shadow: 0px 0px 3px 3px rgba(255,255,255,.1);
+    font-size: 17px;
+}
+
+#footer {
+    width: 100%;
+    background-color:green;
+    height: 50px;
+    margin: auto;
+    padding-top: 25px;
+}
+#footer p {
+    color: white;
+    margin: 0px auto;
+    text-align: center;
+}
+#footer2 {
+    width: 100%;
+    background-color:#efedef;
+    height: 15px;
+    margin: auto;
+}
+input {
+    margin: 10px;
+    
+}
+
+#img4 {
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0px 0px 10px 2px rgba(0,255,0,.5);
+    border: solid white 2px;
+    background-color: white;
+}
+h5 {
+    color: green;
+    font-size: 25px;
+    margin: 10;
+}
+h6 {
+    color: black;
+    font-size: 25px;
+    margin-top: 10;
+    margin-bottom: 0;
+}
+h7 {
+    font-size: 20px;
+    display: block;
+    padding: 15px;
+}
+#ab {
+    color: black;
+    margin: 0px;
+    font-size: 15px;
+}
+form {
+    background-color: green;
+    width: 70%;
+    margin: 25px auto;
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,.3);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: white;
+    
+}
+#sub {
+    color: green;
+    border: none;
+    background-color: white;
+    width: 400px;
+    height: 25px;
+    margin: 25px;
+}
+#sub:focus {    
+    outline: none;
+}
+#sub:active {
+    color: yellowgreen;
+}
+#lol tr {
+    padding: 5px;
+    width: 40%;
+    margin: auto;
+}
+#lol td {
+    color: white;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+#lol td input{
+    margin: 5px auto;
+    padding: 5px;
 }
